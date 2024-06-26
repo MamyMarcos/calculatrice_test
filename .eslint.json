@@ -1,0 +1,9 @@
+{
+  "plugins": {
+    "jsdoc": "eslint-plugin-jsdoc"
+  },
+  "rules": {
+    "jsdoc/require-description": "error",
+    "jsdoc/check-values": "error"
+  }
+}

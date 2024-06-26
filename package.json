@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "calculatrice",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +41,8 @@
   "devDependencies": {
     "@playwright/test": "^1.45.0",
     "cypress": "^13.12.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.3",
     "playwright": "^1.45.0",
     "vitest": "^1.6.0"
   }
